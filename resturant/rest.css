@@ -166,8 +166,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 130px;
     margin-top: 54px;
-    margin-left: 44px;
-    margin-right: 6px;
+    text-align: center;
 }
 #open{
     color: white;
@@ -183,12 +182,13 @@ body{
     color: white;
     font-size: large;
     font-family: sans-serif;
-    margin-left: 85px;
+    text-align: center;
     font-weight: bold;
 }
 #map{
     width: 89%;
     height: 60%;
+    border-radius: 9px;
 }
 #reserve{
     color: white;
@@ -196,7 +196,30 @@ body{
     font-family: sans-serif;
     font-weight: bold;
 }
-#contact{
-    
+#call{
+    width: 12%;
+    height: 14%;
 }
+#copyright{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#context{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+#call{
+    padding: 5px;
+    transition: ease-in-out 0.3s;
+}
+
+#call:hover{
+    transform: translateY(-10px);
+}
+
+
 
