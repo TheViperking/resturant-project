@@ -105,6 +105,8 @@ body{
     justify-content: space-between;
     border-width: 1px;
     border-top-style: dashed;
+    border-color: grey;
+    width: 92%;
 }
 #left{
     margin-top: 10px;
@@ -113,7 +115,8 @@ body{
     align-items: center;
 }
 #image5{
-    height: 94px;
+    width: 90px;
+    height: 90px;
     margin-top: 0px;
     margin-bottom: 4px;
     margin-left: 0px;
@@ -123,4 +126,77 @@ body{
 #category1{
     font-size: medium;
     color: gold;
+    font-size: 15px;
 }
+#itemprice{
+    display: flex;
+}
+#sub1{
+    font-size: 17px;
+}
+#galleryname{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#gallerycontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 90%;
+}
+#imagecontainer{
+    margin-top: 53px;
+    margin-bottom: 5px;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#galleryname{
+    color: white;
+}
+#jpeg1{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+#bottomcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 130px;
+    margin-top: 54px;
+    margin-left: 44px;
+    margin-right: 6px;
+}
+#open{
+    color: white;
+    font-size: large;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#days{
+    color: white;
+    font-family: sans-serif;
+}
+#direction{
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    margin-left: 85px;
+    font-weight: bold;
+}
+#map{
+    width: 89%;
+    height: 60%;
+}
+#reserve{
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#contact{
+    
+}
+
