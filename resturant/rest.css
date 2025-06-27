@@ -130,6 +130,7 @@ body{
 }
 #itemprice{
     display: flex;
+    font-size: medium;
 }
 #sub1{
     font-size: 17px;
