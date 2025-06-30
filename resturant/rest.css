@@ -63,8 +63,8 @@ body{
     font-style:inherit;
 }
 #food{
-    width: 155px;
-    height: 206px;
+    width: 13%;
+    height: 35vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,18 +72,28 @@ body{
     padding: 11px;
 
 }
-#all{
+
+.all{
     width: 90%;
     height: 70%;
     object-fit: cover;
     border-radius: 13px;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+
 
 }
+.selected {
+    border: 7px solid #D3A130;
+}
+
 #name{
     margin: 5px 0px 5px 0px;
     font-weight:bolder;
 }#menu2{
     display: inline-flex;
+    width: 100%;
 }
 #menuitem{
     display: grid;
